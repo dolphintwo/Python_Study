@@ -93,3 +93,6 @@ print calc(1, 2, 3)
 print calc(1, 3, 5, 7)
 
 
+nums = [1, 2, 3]
+print calc(*nums)
+print calc(nums[0], nums[1], nums[2])
